@@ -1,0 +1,17 @@
+LISTA DE ARCHIVOS QUE DEBEN QUEDAR EN LA RAIZ DEL REPOSITORIO
+1. app.py
+2. requirements.txt
+3. README.md
+4. Proyecto mineria_actualizado.ipynb
+5. modelo_pipeline.joblib (se genera al ejecutar el notebook)
+6. metricas_modelo.json (se genera al ejecutar el notebook)
+7. diabetes_limpio.csv (se genera al ejecutar el notebook)
+8. registro_prueba.csv (se genera al ejecutar el notebook)
+9. resultado_registro_prueba.json (se genera al ejecutar el notebook)
+
+IMPORTANTE:
+- Primero ejecuta el notebook completo en Google Colab.
+- Descarga los cinco archivos generados en las últimas celdas.
+- Súbelos al mismo repositorio donde están app.py, requirements.txt y README.md.
+- Completa los nombres de los integrantes en README.md y app.py.
+- No subas datos personales, contraseñas ni tokens.
