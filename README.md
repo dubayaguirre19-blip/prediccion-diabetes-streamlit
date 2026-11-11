@@ -13,8 +13,7 @@ https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabete
 El notebook descarga los datos si `diabetes.csv` no está disponible localmente. La variable objetivo es `Outcome` (0 = sin diabetes según el conjunto, 1 = con diabetes según el conjunto).
 
 ## Integrantes
-Dubay Aguirre
-Luis Molina
+Dubay Aguirre  -  Luis Molina
 
 ## Archivos
 - `app.py`: aplicación Streamlit.
