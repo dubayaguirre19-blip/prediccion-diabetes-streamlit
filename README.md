@@ -13,7 +13,8 @@ https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabete
 El notebook descarga los datos si `diabetes.csv` no está disponible localmente. La variable objetivo es `Outcome` (0 = sin diabetes según el conjunto, 1 = con diabetes según el conjunto).
 
 ## Integrantes
-Completar con los nombres de todos los integrantes del grupo.
+Dubay Aguirre
+Luis Molina
 
 ## Archivos
 - `app.py`: aplicación Streamlit.
@@ -45,7 +46,8 @@ El notebook compara una línea base, regresión logística y árbol de decisión
 ## Uso de inteligencia artificial
 - Herramienta: ChatGPT.
 - Propósito: apoyar la organización del proyecto, la construcción de la interfaz Streamlit, la documentación y la revisión del código.
-- Prompt principal: “Ayúdame a integrar en Streamlit el pipeline de clasificación de diabetes de mi notebook, conservando las variables, el preprocesamiento y las métricas, y prepara los archivos necesarios para GitHub”.
+- Prompt principal: “Estamos desarrollando un proyecto académico de minería de datos sobre la predicción de diabetes. Necesitamos orientación para revisar el modelo de Machine Learning, organizar el código, guardar el modelo entrenado y conectarlo con una aplicación en Streamlit. Explícanos los pasos de manera clara y ayúdanos a identificar posibles errores para poder corregirlos y comprobar que la aplicación funcione correctamente."
+Las sugerencias recibidas se revisaron y se hicieron pruebas para comprobar el funcionamiento del proyecto. Los resultados finales se verificaron utilizando el conjunto de datos y el modelo entrenado en el cuaderno de Google Colab.”.
 - Verificación: ejecutar el notebook de principio a fin, revisar que se generen los archivos, iniciar la aplicación y comparar la predicción de un registro de prueba con la salida del notebook.
 - Problemas encontrados: el modelo y los archivos serializados deben generarse antes de iniciar Streamlit; si faltan, la aplicación muestra un mensaje explicativo.
 - Ajustes realizados: carga del pipeline guardado en lugar de entrenar el modelo al abrir la aplicación; validación de entradas; visualizaciones y sección de métricas; comprobación de un registro conocido.
